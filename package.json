@@ -1,0 +1,16 @@
+{
+  "name": "cypress-testing-amazon",
+  "version": "1.0.0",
+  "description": "Projeto Base",
+  "main": "index.js",
+  "scripts": {
+    "test:run": "cypress run --browser chrome --config video=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
